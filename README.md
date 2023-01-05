@@ -25,3 +25,10 @@
 - ? Do you want to add a service to your test setup? chromedriver
 - ? What is the base url? http://localhost
 - ? Do you want me to run `npm install` Yes
+
+# TestRunner
+- npx wdio config -> Reconfigure wdio.conf.ts/js file
+- npx wdio run ./wdio.conf.ts --watch -> CLI Command to Execute your Test cases over Watch Mode --watch mode to non exit of execution of Test Cases  watch specs for changes
+- npx wdio install ./wdio.conf.ts -> install supported service via wdio.config.ts  reconfigured
+
+- npx wdio repl chrome -> Working as debug purpose & Debugging Mode
