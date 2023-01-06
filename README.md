@@ -32,3 +32,21 @@
 - npx wdio install ./wdio.conf.ts -> install supported service via wdio.config.ts  reconfigured
 
 - npx wdio repl chrome -> Working as debug purpose & Debugging Mode
+
+# Configuration Files
+- its defined ./wdio.conf.ts file contails All info configuration which  needs to Run all your test Suite exports as a json Object
+# Runner configuration
+- Runner configuration How you want to run test suite
+- currently wdio supports 2 types of Runner 
+    - LocalRunner
+        -  Define with wdio.config.ts file & Execute with node Envirnment isolated  & sont shre data between tests runs
+        {runner: 'Local'}
+    - Browser Runner
+        {runner: 'Browser'}
+        - Need to configure compiler & bundeler like vite
+# Framework
+    - Mocha Framework
+    - Jasmine Framework
+    - Cucumber Framework
+
+# Assertions
