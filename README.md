@@ -49,4 +49,5 @@
     - Jasmine Framework
     - Cucumber Framework
 
-# Assertions
+# Execution tests
+    - npx wdio run ./wdio.conf.ts  --spec ./test/specs/test.e2e.ts
