@@ -51,3 +51,13 @@
 
 # Execution tests
     - npx wdio run ./wdio.conf.ts  --spec ./test/specs/test.e2e.ts
+
+# Global wdio configuration
+    - wdio Global Variable 
+    - we dont't have import anything to use them -> injectGlobals: false (to use the global explicitly)
+        - browser
+        - driver
+        - multiremotebrowser
+        - $
+        - $$
+        - expect
