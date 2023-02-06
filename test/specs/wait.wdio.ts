@@ -1,5 +1,5 @@
 describe("Wait Configuration in wdio", () => {
-  it("WaitForClickabel", async () => {
+  it("WaitForClickable", async () => {
     console.log(`WaitForClickabel`);
     await browser.setTimeout({ implicit: 5000, pageLoad: 10000 });
     await browser.maximizeWindow();
